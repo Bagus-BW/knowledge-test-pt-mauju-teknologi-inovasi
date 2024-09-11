@@ -120,7 +120,7 @@ export const useUpdateUser = (): UpdateUserHook => {
     try {
       setIsLoading(true);
   
-      const data = await axios.post<UserUpdate>(`https://reqres.in/api/users/${id}`, {
+      const data = await axios.patch<UserUpdate>(`https://reqres.in/api/users/${id}`, {
         name,
         job
       })
