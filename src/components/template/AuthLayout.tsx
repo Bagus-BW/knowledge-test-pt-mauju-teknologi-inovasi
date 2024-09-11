@@ -11,7 +11,7 @@ const AuthLayout: React.FC = () => {
           <Button className="w-max bg-[#0575E6] hover:bg-[#0575E6] hover:bg-opacity-85 text-white rounded-full mt-6 px-[30px] py-2">Read More</Button>
         </div>
         <img 
-          src="./src/assets/images/auth/line-half-circle.png" 
+          src="./images/auth/line-half-circle.png" 
           alt="Line Half Circle" 
           className="w-1/2 absolute bottom-0 left-0"
         />
