@@ -47,7 +47,7 @@ const LoginForm: React.FC = () => {
                         {...field} 
                       />
                       <img 
-                        src="./src/assets/images/icon/mail.png" 
+                        src="src/assets/images/icon/mail.png" 
                         alt="Mail Icon" 
                         className="absolute top-1/2 -translate-y-1/2 left-4"
                       />
@@ -71,7 +71,7 @@ const LoginForm: React.FC = () => {
                         {...field} 
                       />
                       <img 
-                        src="./src/assets/images/icon/lock.png" 
+                        src="src/assets/images/icon/lock.png" 
                         alt="Mail Icon" 
                         className="absolute top-1/2 -translate-y-1/2 left-4"
                       />
