@@ -1,0 +1,7 @@
+export type BaseAPIResponse<T = unknown> = {
+  data?: T;
+  page: number,
+  per_page: number,
+  total: number,
+  total_pages: number,
+};
