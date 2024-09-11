@@ -28,7 +28,7 @@ const NavbarProfile: React.FC = () => {
         <DropdownMenuTrigger>
           <div className="flex items-center gap-2">
             <Avatar className="border-2 border-[#0571E1] w-12 h-12">
-              <AvatarImage src={myProfile?.avatar || "/src/assets/images/default/avatar.png"} />
+              <AvatarImage src={myProfile?.avatar || "./images/default/avatar.png"} />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
             <div className="flex flex-col items-start">

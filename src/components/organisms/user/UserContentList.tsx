@@ -92,7 +92,7 @@ const UserContentList: React.FC = () => {
                         to={"edit/2"} 
                       >
                         <img 
-                          src="/src/assets/images/icon/pencil.png" 
+                          src="./images/icon/pencil.png" 
                           alt="Pencil Icon" 
                           className="bg-[#e6e6e6] rounded-full p-2"
                         />
@@ -102,7 +102,7 @@ const UserContentList: React.FC = () => {
                         onClick={onDelete}
                       >
                         <img 
-                          src="/src/assets/images/icon/trash.png" 
+                          src="./images/icon/trash.png" 
                           alt="Pencil Icon" 
                           className="p-2"
                         />

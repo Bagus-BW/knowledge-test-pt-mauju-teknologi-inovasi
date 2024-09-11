@@ -51,7 +51,7 @@ const RegisterForm: React.FC = () => {
                         {...field} 
                       />
                       <img 
-                        src="/src/assets/images/icon/user.png" 
+                        src="./images/icon/user.png" 
                         alt="Mail Icon" 
                         className="absolute top-1/2 -translate-y-1/2 left-4"
                       />
@@ -73,7 +73,7 @@ const RegisterForm: React.FC = () => {
                         {...field} 
                       />
                       <img 
-                        src="/src/assets/images/icon/mail.png" 
+                        src="./images/icon/mail.png" 
                         alt="Mail Icon" 
                         className="absolute top-1/2 -translate-y-1/2 left-4"
                       />
@@ -96,7 +96,7 @@ const RegisterForm: React.FC = () => {
                         {...field} 
                       />
                       <img 
-                        src="/src/assets/images/icon/lock.png" 
+                        src="./images/icon/lock.png" 
                         alt="Mail Icon" 
                         className="absolute top-1/2 -translate-y-1/2 left-4"
                       />
